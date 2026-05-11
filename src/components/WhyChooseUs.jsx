@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
 
           {/* Left heading */}
           <div className="lg:w-[300px] flex-shrink-0">
-            <h2 className="text-[28px] font-extrabold text-[#1C2482] uppercase tracking-[0.04em] leading-tight mb-3 whitespace-nowrap">
+            <h2 className="text-[26px] font-bold font-poppins text-[#1C2482] uppercase tracking-[0.04em] leading-tight mb-3 whitespace-nowrap">
               WHY CHOOSE US
             </h2>
             <div className="w-10 h-1 bg-[#4F35D2] rounded-full mb-4" />
@@ -56,10 +56,10 @@ export default function WhyChooseUs() {
 
                 {/* Text */}
                 <div>
-                  <h3 className="text-[#1C2482] font-bold text-[15px] mb-1.5">
+                  <h3 className="text-[#1C2482] font-bold font-poppins text-[15px] mb-1.5">
                     {r.title}
                   </h3>
-                  <p className="text-[#555] text-[13px] leading-[1.65]">
+                  <p className="text-[#666666] font-medium text-[13px] leading-[1.65]">
                     {r.desc}
                   </p>
                 </div>

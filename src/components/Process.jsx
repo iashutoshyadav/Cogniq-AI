@@ -33,7 +33,7 @@ export default function Process() {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
           <div>
-            <h2 className="text-[28px] font-extrabold text-[#1a1a4e] uppercase tracking-wider mb-2">
+            <h2 className="text-[26px] font-bold font-poppins text-[#1a1a4e] uppercase tracking-wider mb-2">
               OUR PROCESS
             </h2>
             <div className="w-10 h-1 bg-primary rounded-full" />
@@ -63,8 +63,8 @@ export default function Process() {
 
               {/* Text */}
               <div className="absolute bottom-6 left-6 right-6 translate-y-2 transition-transform duration-300 group-hover:translate-y-0">
-                <h3 className="text-white font-bold text-[20px] mb-1.5">{step.title}</h3>
-                <p className="text-gray-300 text-[14px] leading-relaxed opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <h3 className="text-white font-bold font-poppins text-[20px] mb-1.5">{step.title}</h3>
+                <p className="text-gray-300 text-[12px] leading-relaxed opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   {step.desc}
                 </p>
               </div>

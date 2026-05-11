@@ -28,7 +28,7 @@ export default function Services() {
 
         {/* Heading */}
         <div className="mb-12">
-          <h2 className="text-[28px] font-extrabold text-[#1C2482] uppercase tracking-wider mb-2">
+          <h2 className="text-[26px] font-bold font-poppins text-[#1C2482] uppercase tracking-wider mb-2">
             OUR SERVICES
           </h2>
           <div className="w-10 h-1 bg-primary rounded-full mb-4" />
@@ -47,8 +47,8 @@ export default function Services() {
               <div style={{ width: '52px', height: '52px', backgroundColor: '#4F35D2', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px', flexShrink: 0 }}>
                 <img src={svc.icon} alt={svc.title} style={{ width: '24px', height: '24px', filter: 'brightness(0) invert(1)' }} />
               </div>
-              <h3 className="text-[#1C2482] font-bold text-[17px] mb-2">{svc.title}</h3>
-              <p className="text-[#4E4E4E] text-[14px] leading-relaxed">{svc.desc}</p>
+              <h3 className="text-[#4636B9] font-bold font-poppins text-[16px] mb-2">{svc.title}</h3>
+              <p className="text-[#3D3D3D] font-medium text-[14px] leading-relaxed">{svc.desc}</p>
             </div>
           ))}
         </div>

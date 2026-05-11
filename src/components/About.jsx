@@ -30,19 +30,19 @@ export default function About() {
               ABOUT US
             </div>
 
-            <h2 className="text-[18px] md:text-[22px] font-bold mb-4 leading-tight">
+            <h2 className="text-[18px] md:text-[26px] font-semibold font-poppins mb-4 leading-tight">
               <span className="text-[#1C2482]">Engineering Trust.</span>{' '}
               <span className="text-[#794CFA]">Delivering Intelligence.</span>
             </h2>
 
-            <h3 className="text-[22px] md:text-[26px] font-semibold text-black mb-6 leading-[1.25]">
+            <h3 className="text-[22px] md:text-[26px] font-semibold font-poppins text-black mb-6 leading-[1.25]">
               At Cogniq AI
             </h3>
 
-            <p className="text-[#4E4E4E] text-[17px] leading-[1.625] mb-8 max-w-[600px] mx-auto lg:mx-0">
-              we don't just develop features, we build <span className="text-[#794CFA] font-semibold">full-scale</span> AI systems
+            <p className="text-[#4E4E4E] text-[17px] font-medium leading-[1.625] mb-8 max-w-[600px] mx-auto lg:mx-0">
+              we don't just develop features, we build <span className="text-[#794CFA] font-bold">full-scale</span> AI systems
               designed for clarity, transparency, and long-term growth. From startups to enterprises,
-              we partner with teams that want to innovate without compromising on <span className="text-[#1C2482] font-semibold">quality</span>.
+              we partner with teams that want to innovate without compromising on <span className="text-[#1C2482] font-bold">quality</span>.
             </p>
 
             <a

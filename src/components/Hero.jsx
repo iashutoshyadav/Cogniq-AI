@@ -30,27 +30,26 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="relative z-10 w-full max-w-[900px] mx-auto px-6 pt-32 pb-20 text-center">
-        <h1 className="text-[40px] md:text-[52px] font-bold leading-[1.2] text-text-main mb-6 tracking-tight">
+        <h1 className="text-[40px] md:text-[52px] font-bold font-poppins leading-[1.2] text-[#444343] mb-6 tracking-tight">
           Building <span className="text-accent">Intelligent</span>, scalable AI <br className="hidden md:block" />
           solutions for the <span className="text-accent">Next</span> <br className="hidden md:block" />
           Generation
         </h1>
 
-        <p className="text-gray-500 text-[17px] md:text-[18px] leading-[1.7] max-w-[580px] mx-auto mb-10">
-          Your premier AI & Software engineering partner - transforming ideas into
-          reliable, high-performance products.
+        <p className="text-[#666666] text-[17px] md:text-[19px] font-medium leading-[1.7] max-w-[580px] mx-auto mb-10 text-center">
+          Your premier AI & Software engineering partner - transforming ideas into reliable, high-performance products.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#services"
-            className="w-full sm:w-auto border-[0.76px] border-primary text-primary font-semibold text-[15px] px-12 py-4 rounded-lg no-underline transition-all duration-300 hover:bg-primary/5"
+            className="w-full sm:w-auto border-[0.76px] border-primary text-primary font-medium text-[15px] px-12 py-4 rounded-md no-underline transition-all duration-300 hover:bg-primary/5"
           >
             Explore our services
           </a>
           <a
             href="#contact"
-            className="w-full sm:w-auto bg-gradient-to-r from-primary to-accent text-white font-semibold text-[15px] px-12 py-4 rounded-lg no-underline transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
+            className="w-full sm:w-auto bg-gradient-to-r from-primary to-accent text-white font-medium text-[15px] px-12 py-4 rounded-md no-underline transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
           >
             Book a Strategy Call
           </a>

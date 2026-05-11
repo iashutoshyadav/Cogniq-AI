@@ -132,13 +132,13 @@ export default function CTABanner() {
               }}
             >
               <h2
-                className="text-white font-extrabold leading-tight mb-4"
-                style={{ fontSize: '36px', maxWidth: '680px' }}
+                className="text-white font-bold font-poppins leading-tight mb-4"
+                style={{ fontSize: '30px', maxWidth: '680px' }}
               >
                 Ready to transform Your Workflow?
               </h2>
               <p
-                className="text-gray-200 leading-relaxed mb-8"
+                className="text-gray-200 font-medium leading-relaxed mb-8"
                 style={{ fontSize: '16px', maxWidth: '560px' }}
               >
                 Let's build a clear, actionable roadmap to solve your biggest operational challenges with AI.
