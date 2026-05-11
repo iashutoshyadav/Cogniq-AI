@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Right: Magic Sparkles */}
-      <div className="absolute right-[12%] bottom-[25%] bg-white rounded-full p-4 shadow-[0_2px_15px_rgba(0,0,0,0.08)] z-10 hidden lg:block animate-bounce-slow">
+      <div className="absolute right-[12%] bottom-[12%] bg-white rounded-full p-4 shadow-[0_2px_15px_rgba(0,0,0,0.08)] z-10 hidden lg:block animate-bounce-slow">
         <img src="/MagicSparklesHero.svg" alt="" className="w-8 h-8" />
       </div>
 
@@ -36,9 +36,10 @@ export default function Hero() {
           Generation
         </h1>
 
-        <p className="text-[#666666] text-[17px] md:text-[19px] font-medium leading-[1.7] max-w-[580px] mx-auto mb-10 text-center">
-          Your premier AI & Software engineering partner - transforming ideas into reliable, high-performance products.
-        </p>
+        <div className="text-[#666666] text-[17px] md:text-[19px] font-medium leading-[1.7] max-w-[600px] mx-auto mb-10 flex flex-col items-center text-center">
+          <span className="block">Your premier AI & Software engineering partner - transforming</span>
+          <span className="block">ideas into reliable, high-performance products.</span>
+        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
